@@ -5,6 +5,7 @@
 
 
 bool checkPrime(uint64_t value) {
+  if (value == 1) return false;
   for (uint64_t devider = 2; devider <= std::sqrt(value); devider++) {
     if (value % devider == 0) return false;
   }
