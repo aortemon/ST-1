@@ -48,7 +48,7 @@ TEST(st1, nextPrime3) {
   EXPECT_EQ(nextPrime(200), 211);
 }
 TEST(st1, sumPrime1) {
-  EXPECT_EQ(sumPrime(5), 6);
+  EXPECT_EQ(sumPrime(5), 5);
 }
 TEST(st1, sumPrime2) {
   EXPECT_EQ(sumPrime(100), 1060);
